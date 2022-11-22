@@ -4,7 +4,6 @@
 //7 -> нет
 Console.WriteLine("Введите число: ");
 int num = int.Parse(Console.ReadLine());
-
 if(num % 2 == 0)// если остаток от деления равен нулю
     Console.WriteLine("Да");
 else    
