@@ -2,7 +2,7 @@
 //A (3,6,8); B (2,1,-7), -> 15.84
 //A (7,-5, 0); B (1,-1,9) -> 11.53
 
-Console.WriteLine("Enter x1 = ");
+Console.WriteLine("Enter x1 = ");// не смог найти в своих примерах как парсить координаты с консоли...)
 int x1 = int.Parse(Console.ReadLine());
 Console.WriteLine("Enter y1 = ");
 int y1 = int.Parse(Console.ReadLine());
