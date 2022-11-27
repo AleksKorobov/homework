@@ -9,7 +9,7 @@ int GetNum(string message)
 }
 void NumberDegree(int num, int degree)
 {
-    Console.WriteLine(Math.Pow(num, degree));
+    Console.WriteLine(Math.Pow(num, degree));//первое число, второе степень - математическая функция в программировании
 }
 int num = GetNum("Введите число: ");
 int degree = GetNum("Введите степень числа");
