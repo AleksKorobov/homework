@@ -3,18 +3,17 @@
 2, 4 -> 16*/
 
 
-Console.WriteLine("Введите число N: ");
-int num = int.Parse(Console.ReadLine());
-Console.WriteLine("Введите степень числа N");
-int degree = int.Parse(Console.ReadLine());
-int result = num;
-for (int i = 1; i < degree; i++)
+void NumberDegree(int num, int degree)
 {
-    result = (result*num);
+    Console.WriteLine(Math.Pow(num, degree));
 }
-Console.Write(result);
+
+Console.WriteLine("Введите число: ");
+int num = int.Parse(Console.ReadLine());
+Console.WriteLine("Введите степень числа");
+int degree = int.Parse(Console.ReadLine());
+
+NumberDegree(num, degree);
 
 
-
-
-//Console.Write(Math.Pow(num, degree));
+//Console.Write(Math.Pow(num, degree)
