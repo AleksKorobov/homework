@@ -2,18 +2,17 @@
 3, 5 -> 243 (3⁵)
 2, 4 -> 16*/
 
-
+int GetNum(string message)
+{
+    System.Console.WriteLine(message);
+    return Convert.ToInt32(Console.ReadLine());
+}
 void NumberDegree(int num, int degree)
 {
     Console.WriteLine(Math.Pow(num, degree));
 }
-
-Console.WriteLine("Введите число: ");
-int num = int.Parse(Console.ReadLine());
-Console.WriteLine("Введите степень числа");
-int degree = int.Parse(Console.ReadLine());
-
+int num = GetNum("Введите число: ");
+int degree = GetNum("Введите степень числа");
 NumberDegree(num, degree);
 
-
-//Console.Write(Math.Pow(num, degree)
+//(Math.Pow(num, degree));
