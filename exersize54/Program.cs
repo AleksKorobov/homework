@@ -45,6 +45,8 @@ void SortDecay(int[,] array)
     }
 }
 
+
+
 Console.Clear();
 int rows = GetNum("Введите количество строк"!);
 int cols = GetNum("Введите количество столбцов"!);
