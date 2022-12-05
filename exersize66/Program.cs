@@ -5,14 +5,6 @@ Console.Clear();
 int m = ReadInt("Введите число M = ");
 int n = ReadInt("Введите число N = ");
 
-/*string PrintNumber(int start, int end)
-{
-    if (start==end) return start.ToString();
-    return(start + " "+ PrintNumber(start+1, end));
-}
-
-Console.WriteLine(PrintNumber(m,n));*/
-
 int SumNum(int start, int end)
 {
     if (start==end) return start;
